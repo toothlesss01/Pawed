@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', 'poppins', serif;
+    color: black;
+}
+
+/* Header styles */
+header {
+    
+    background-image: url('images/pic0.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    height: 100vh;
+    padding: 70px 0; /* Adjust the padding as needed */
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom:2rem;
+    position:absolute;
+    top:0;
+    width:100%; 
+}
+
+nav img {
+    height:200px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 8.0rem;
+    font-weight: bolder; 
+    align-items: end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: left;
+}
+
+nav a {
+    text-decoration:navajowhite;
+    color: white;
+    transition: color 0.3s;
+    align-items: left;
+}
+
+nav a:hover {
+    color: #d6bc80;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #af984c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #80d680;
+}
+
+/* Features section styles */
+#features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #000;
+    color: #fff;
+    height:100vh;
+}
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    background-color: #000;
+    border-radius: 20%;
+    
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.feature img {
+    max-width: 270px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    font-size: 1.0rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+
+/*about section*/
+
+.about-section {
+    background-image: url('images/pic7.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0; 
+    height: 70vh;/* Adjust the padding as needed */
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 5rem;
+    margin-bottom: 70px;
+    font-family:'poppins';
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 32px;
+}
+
+/* Testimonials section styles */
+#testimonials {
+    display: flex; /*thi and the next line are used for hotizontal placing*/
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: black;
+    color: #fff;
+    height: 120vh;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+.testimonial heading {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    font-family:'poppins';
+    text-align: justify;
+}
+
+.testimonial img {
+    max-width: 400px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    padding-top: 150px;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-left: 80px ;
+    margin-right: 80px;
+    line-height: 30px;
+}
+
+.testimonial cite { 
+    font-weight: bold;
+}
+
+/*gotto get this working*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 130vh;
+    background-image: url('images/bg2.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+
+}
+
+.registration-section {
+    max-width: 400px;
+    padding: 20px;
+    padding-right: 50px;
+    background-color:white;
+    color:black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #a08645;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Download section styles */
+#download {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+/* Additional Download section styles */
+#download p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#download .cta-button {
+    background-color: #80d680;
+}
+
+#download .cta-button:hover {
+    background-color: #4CAF50;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
